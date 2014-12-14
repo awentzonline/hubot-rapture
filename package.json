@@ -1,9 +1,13 @@
 {
   "name": "hubot-rapture",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Adam Wentz <awentz@theonion.com>",
   "description": "Reports the current rapture index",
   "main": "./scripts/rapture.coffee",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/awentzonline/hubot-rapture.git"
+  },
   "dependencies": {
     "hubot": "^2.10.0"
   },
