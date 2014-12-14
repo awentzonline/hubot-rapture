@@ -1,0 +1,13 @@
+{
+  "name": "hubot-rapture",
+  "version": "0.0.0",
+  "private": true,
+  "author": "Adam Wentz <awentz@theonion.com>",
+  "description": "Reports the current rapture index",
+  "dependencies": {
+    "hubot": "^2.10.0"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}
