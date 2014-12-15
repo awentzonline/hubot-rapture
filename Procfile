@@ -1,1 +1,1 @@
-web: bin/hubot -a slack -n hubot-rapture
+web: bin/hubot -a shell -n hubot-rapture
