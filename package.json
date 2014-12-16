@@ -1,6 +1,6 @@
 {
   "name": "hubot-rapture",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": "Adam Wentz <awentz@theonion.com>",
   "description": "Reports the current rapture index",
   "main": "./scripts/rapture.coffee",

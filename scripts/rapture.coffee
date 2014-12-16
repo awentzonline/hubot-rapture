@@ -9,6 +9,6 @@ module.exports = (robot) ->
       try
         match = body.match(/Rapture Index (\d+)/)
         currentIndex = parseInt(match[1])
-        msg.send "Current rapture index: #{currentIndex}"
+        msg.send "Current rapture index: #{currentIndex} http://www.raptureready.com/rap2.html"
       catch error
         msg.send "Rapture may have already begun: #{error}"
