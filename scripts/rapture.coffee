@@ -3,7 +3,7 @@
 #
 
 module.exports = (robot) ->
-  robot.hear /rapture/i, (msg) ->
+  robot.respond /rapture/i, (msg) ->
     robot.http("http://www.raptureready.com/rap2.html")
     .get() (err, res, body) ->
       try
